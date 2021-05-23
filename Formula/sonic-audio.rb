@@ -8,8 +8,9 @@ class SonicAudio < Formula
 
   bottle do
     root_url "https://github.com/Tenzer/homebrew-tap/releases/download/sonic-audio-20210523-0"
-    sha256 cellar: :any,                 catalina:     "89e00d9ac753897456e13b9617134d8352658cf2d88e4e8ac5449bddef89e8c0"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "04a9f03bc4f13b3ead503e0216ebe584eb1a00425c86c7e526367472306420ba"
+    sha256 cellar: :any,                 arm64_big_sur: "5ea32b018d93d7cd3742197d2aafdf6f71da0c3b4f7b5187b612e8d04b009827"
+    sha256 cellar: :any,                 catalina:      "89e00d9ac753897456e13b9617134d8352658cf2d88e4e8ac5449bddef89e8c0"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "04a9f03bc4f13b3ead503e0216ebe584eb1a00425c86c7e526367472306420ba"
   end
 
   def install
