@@ -1,10 +1,15 @@
-# Tenzer Tap
+# Homebrew Tap
+
+This is my collection of small utilities which I found to be useful,
+which might not be popular enough to be included in the main Homebrew repository.
+
 
 ## How do I install these formulae?
 
-`brew install tenzer/tap/<formula>`
+`brew install Tenzer/tap/<formula>`
 
-Or `brew tap tenzer/tap` and then `brew install <formula>`.
+Or `brew tap Tenzer/tap` and then `brew install <formula>`.
+
 
 ## Documentation
 
