@@ -8,8 +8,7 @@ class Go2fa < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args
-    bin.install "go2fa" => "2fa"
+    system "go", "build", "-trimpath", "-mod=mod", "-o=#{bin/"2fa"}"
   end
 
   test do
