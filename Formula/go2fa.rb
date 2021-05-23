@@ -12,6 +12,6 @@ class Go2fa < Formula
   end
 
   test do
-    system bin/"2fa", "-help"
+    system bin/"2fa", "-list"
   end
 end
