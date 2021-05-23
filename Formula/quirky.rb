@@ -7,8 +7,9 @@ class Quirky < Formula
 
   bottle do
     root_url "https://github.com/Tenzer/homebrew-tap/releases/download/quirky-1.0.2"
-    sha256 cellar: :any_skip_relocation, catalina:     "f8d977e60646138fdbe5409d8d6994d137ac26c05935ac177eb4dc698fee5bfd"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "6b91df5d012ca39c3189489a5b1e90288204b15abad7023d68333c3c04345255"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "018b0db5f762b85bd4b4e7f4cad50392d87f70f295138b98b86dd33e4f4fd082"
+    sha256 cellar: :any_skip_relocation, catalina:      "f8d977e60646138fdbe5409d8d6994d137ac26c05935ac177eb4dc698fee5bfd"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "6b91df5d012ca39c3189489a5b1e90288204b15abad7023d68333c3c04345255"
   end
 
   depends_on "go" => :build
