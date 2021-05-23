@@ -1,4 +1,4 @@
-class 2fa < Formula
+class go2fa < Formula
   desc "Two-factor authentication on the command line"
   homepage "https://github.com/rsc/2fa"
   url "https://github.com/rsc/2fa/archive/refs/tags/v1.2.0.tar.gz"
