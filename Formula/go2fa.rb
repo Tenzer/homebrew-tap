@@ -9,6 +9,7 @@ class Go2fa < Formula
 
   def install
     system "go", "build", *std_go_args
+    bin.install "go2fa" => "2fa"
   end
 
   test do
