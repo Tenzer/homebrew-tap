@@ -6,10 +6,9 @@ class Tfk8s < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/Tenzer/homebrew-tap/releases/download/tfk8s-0.1.5"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "eaa9d0510951082d14d0216228ead0488a83657d6c6f4bc0328937f7dde3d49a"
-    sha256 cellar: :any_skip_relocation, catalina:      "7c13860c009760199fd8c8106a1c6099f574311e58efdddf12f877d33a6c653c"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "0a94e8dd972aad97f4c63818aa2c65209b2b44f110288e087426d51236c38217"
+    root_url "https://github.com/Tenzer/homebrew-tap/releases/download/tfk8s-0.1.6"
+    sha256 cellar: :any_skip_relocation, catalina:     "3eebfe4bda90ff59fb1d8c83e4569eb22ac835e028e046cd2a1a2ebde3043265"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "5ed25a3cc74b0f5c0d345eb022791bf6b87a0131c34c9ff0cb4a4bf61b104392"
   end
 
   depends_on "go" => :build
